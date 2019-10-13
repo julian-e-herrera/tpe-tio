@@ -1,0 +1,300 @@
+
+html {
+    margin: 10px;
+}
+
+body, .centro {
+    margin: 0;
+}
+
+h1, h2 {
+    color: gold;
+    text-shadow: 10px 10px 10px black;
+    font-size: 0, 5em;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+th {
+    background-color: rgb(245, 222, 92);
+    color: black;
+    border: 4px transparent white;
+    padding: 10px;
+}
+
+table, td, tr {
+    border: 4px transparent white;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+input[type=checkbox] {
+    transform: scale(1.8);
+}
+
+.cerveza {
+    background-color: rgb(28, 66, 29); 
+        background-size: cover;
+}
+
+#historia {
+    background-image: url("../fotos/treboles.jpg");
+background-color: rgb(28, 66, 29);    
+    background-size: cover;
+}
+
+#home {
+    background-color: rgb(28, 66, 29);  
+       background-size: cover;
+}
+
+.encabezado {
+    text-align: center;
+    font: bold 300% 'Times New Roman', Times, serif;
+    margin: 0;
+    width: 100%;
+    clear: both;
+    padding-bottom: 45%;
+}
+
+.subtitulo {
+    font: bold 250% 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.secundario {
+    font: bold 200% 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.centro {
+    width: 70%;
+    margin: 10% auto;
+    text-align: justify;
+    color: white;
+}
+
+.izquierda {
+    width: 5%;
+    display: block;
+    float: left;
+}
+
+.derecha {
+    width: 85%;
+    float: left;
+    margin-left: 10%;
+    display: block;
+}
+
+.izq {
+    width: 15%;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-left: -30px;
+}
+
+.der {
+    width: 15%;
+    float: left;
+    display: block;
+    margin-left: -20px;
+}
+
+.cuerpo {
+    width: 72%;
+    margin: auto;
+    text-align: justify;
+    color: white;
+    display: block;
+    float: left;
+}
+
+.cuerpo img {
+    position: relative;
+}
+
+.contacto {
+    clear: both;
+    text-align: justify;
+    width: 600px;
+    margin: 150px auto;
+}
+
+tr:nth-child(even) {
+    background-color: #4CAF50;
+}
+
+tr:hover td {
+    background-color: #333;
+    color: white;
+}
+
+table {
+    font: bold 150% 'Times New Roman', Times, serif;
+    text-shadow: 10px 10px 10px black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    color: white;
+    text-shadow: 0 2px 0 black;
+    font-size: 1, 5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navegador {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#navegador ul {
+    padding-inline-start: 0;
+    margin: 0;
+    height: 100%;
+    background-color: rgb(88, 85, 85);
+}
+
+#navegador ul li {
+    text-align: center;
+    float: left;
+    display: block;
+    position: relative;
+    list-style: none;
+    background-color: #333;
+    height: 100%;
+    margin: 0 1px;
+}
+
+#SubirComentario {
+    font: bolder;
+    color: rgb(19, 63, 20);
+    margin-left: 25%;
+    background-color: #eeeeee;
+    text-shadow: 0 5px 0 0 black;
+}
+
+#SubirComentario:hover {
+    background-color: transparent;
+    color: gold;
+}
+
+ul.btnsnav li a {
+    font: bold 250% 'Times New Roman', Times, serif;
+    display: block;
+    color: #4CAF50;
+    background-color: transparent;
+    border: 1px transparent;
+    text-decoration: none;
+    width: 100%;
+}
+
+#navegador ul li a:hover {
+    background-color: transparent;
+    color: gold;
+}
+
+.seleccionado:visited {
+    background-color: transparent;
+    color: gold;
+}
+
+.formulario {
+    color: #eeeeee;
+    font: bold 150% lighter;
+    font-size: 1.5em;
+    text-shadow: 0 5px 0 black;
+    list-style-type: none;
+}
+
+.formulario li {
+    margin-top: 20px;
+}
+
+.arriba {
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+    float: right;
+    margin-right: 2%;
+    border: 0, 1px;
+}
+
+.arriba button {
+    color: #eeeeee;
+    background-color: rgb(45, 122, 47);
+    font-size: 200%;
+    text-shadow: 0 5px 0 black;
+}
+
+img {
+    float: right;
+    display: flexbox;
+    border: 2px solid rgb(255, 230, 90);
+}
+
+#santo {
+    float: left;
+    display: flexbox;
+    width: 400px;
+}
+
+.beer {
+    width: 300px;
+}
+
+.city li {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.encabezado div {
+    height: 20%;
+    width: 100%;
+    margin-left: -30%;
+}
+
+.encabezado img {
+    display: block;
+    width: 450px;
+    border: none;
+}
+
+.cuerpo img {
+    width: 430px;
+    margin-top: 20px;
+}
+
+.lista {
+    clear: both;
+    color: white;
+    text-align: justify;
+}
+
+.lista img {
+    width: 10%;
+    float: fixed;
+}
+
+ol {
+    text-shadow: 0 5px 0 black;
+    font-size: 0, 8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+    text-align:center;
+    float: inline-end;
+    width: 100%;
+}
