@@ -1,10 +1,10 @@
 
 html {
-    margin: 10px;
+    margin: 20px;
 }
 
 body, .centro {
-    margin: 0;
+    margin: 20;
 }
 
 h1, h2 {
@@ -19,13 +19,13 @@ th {
     background-color: rgb(245, 222, 92);
     color: black;
     border: 4px transparent white;
-    padding: 10px;
+    padding: 20px;
 }
 
 table, td, tr {
     border: 4px transparent white;
     border-collapse: collapse;
-    padding: 10px;
+    padding: 20px;
 }
 
 input[type=checkbox] {
